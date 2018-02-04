@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: aspire-file-upload
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://ec2-18-219-90-183.us-east-2.compute.amazonaws.com/eureka}
