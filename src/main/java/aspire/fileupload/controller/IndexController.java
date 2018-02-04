@@ -17,6 +17,6 @@ public class IndexController {
 
     @RequestMapping("/fileUpload")
     public String fileUpload() {
-        return userService.authenticated() + "File uploaded!";
+        return userService.authenticated() + " File uploaded!";
     }
 }
